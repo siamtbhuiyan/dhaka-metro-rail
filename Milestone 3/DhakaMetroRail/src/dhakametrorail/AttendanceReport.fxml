@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="dhakametrorail.AttendanceReportController">
+   <children>
+      <TextArea fx:id="outputArea" editable="false" layoutX="18.0" layoutY="102.0" prefHeight="197.0" prefWidth="565.0" />
+      <Label layoutX="250.0" layoutY="48.0" text="Attendance Report" />
+   </children>
+</AnchorPane>

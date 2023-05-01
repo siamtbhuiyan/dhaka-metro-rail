@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="252.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="26.0" layoutY="31.0" text="Important Announcement" />
+      <TextArea layoutX="26.0" layoutY="100.0" prefHeight="200.0" prefWidth="200.0" promptText="Write Here" />
+      <Text layoutX="26.0" layoutY="86.0" strokeType="OUTSIDE" strokeWidth="0.0" text="The Announcement" />
+      <Button layoutX="26.0" layoutY="315.0" mnemonicParsing="false" text="Send for announcement" />
+      <Button layoutX="174.0" layoutY="349.0" mnemonicParsing="false" text="Cancel" />
+   </children>
+</AnchorPane>

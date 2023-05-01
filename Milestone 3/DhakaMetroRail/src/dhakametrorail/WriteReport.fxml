@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="800.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="dhakametrorail.WriteReportController">
+   <children>
+      <Label layoutX="41.0" layoutY="34.0" prefHeight="23.0" prefWidth="177.0" text="Write Report" />
+      <TextField fx:id="fromText" layoutX="41.0" layoutY="85.0" promptText="Letter From..." />
+      <TextField fx:id="subjectText" layoutX="41.0" layoutY="130.0" promptText="Subject" />
+      <TextArea fx:id="bodyText" layoutX="41.0" layoutY="178.0" prefHeight="365.0" prefWidth="681.0" promptText="Write Report Here..." />
+      <Button fx:id="sendBtn" layoutX="41.0" layoutY="598.0" mnemonicParsing="false" onMouseClicked="#sendBtnOnClick" prefHeight="25.0" prefWidth="127.0" text="Send" />
+   </children>
+</AnchorPane>
